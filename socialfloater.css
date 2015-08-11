@@ -1,0 +1,82 @@
+  .iiabSocial { 
+	width: 190px; 
+	top: 200px;
+	left: 0px;
+	position: fixed; 
+	margin-left: 70px; 
+	z-index: 3000;
+	}
+
+   .iiabSocial li {
+    display: block;
+    margin: 0 8px;
+  }
+  .iiabSocial li a {
+    width: auto;
+    height: 24px;
+    display: block;
+    text-indent: -9999px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+  }
+   
+  .iiabSocial li a.pIcon {
+    background: transparent url('images/social-icons.png') no-repeat -170px 0px;
+    height: 24px;
+    width: 18px;
+  }
+  .iiabSocial li a.pIcon:hover,
+  .iiabSocial li a.pIcon:active {
+    background-position: -170px -25px;
+  }
+  .iiabSocial li a.youIcon {
+    background: transparent url('images/social-icons.png') no-repeat 0 0;
+    height: 24px;
+    width: 38px;
+  }
+  .iiabSocial li a.youIcon:hover,
+  .iiabSocial li a.youIcon:active {
+    background-position: 0 -25px;
+  }
+  .iiabSocial li a.fbIcon {
+    background: transparent url('images/social-icons.png') no-repeat -47px 0;
+    height: 24px;
+    width: 9px;
+  }
+  .iiabSocial li a.fbIcon:hover,
+  .iiabSocial li a.fbIcon:active {
+    background-position: -47px -25px;
+  }
+  .iiabSocial li a.InIcon {
+    background: transparent url('images/social-icons.png') no-repeat -71px 0;
+    height: 24px;
+    width: 18px;
+  }
+  .iiabSocial li a.InIcon:hover,
+  .iiabSocial li a.InIcon:active {
+    background-position: -71px -25px;
+  }
+  .iiabSocial li a.twIcon {
+    background: transparent url('images/social-icons.png') no-repeat -99px 0;
+    height: 24px;
+    width: 22px;
+  }
+  .iiabSocial li a.twIcon:hover,
+  .iiabSocial li a.twIcon:active {
+    background-position: -99px -25px;
+  }
+  .iiabSocial li a.googleIcon {
+    background: transparent url('images/social-icons.png') no-repeat -133px 0;
+    height: 24px;
+    width: 25px;
+  }
+  .iiabSocial li a.googleIcon:hover,
+  .iiabSocial li a.googleIcon:active {
+    background-position: -133px -25px;
+  }
+  .iiabSocial li:before {
+    display: none;
+  }
